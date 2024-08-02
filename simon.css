@@ -1,0 +1,84 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    background: linear-gradient(135deg, #f06, #ff8, #0ff);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease, background 0.5s ease; /* Smooth transition for both color and gradient changes */
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid #000;
+    margin: 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btncontain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line1, .line2 {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: #ea2e66;
+}
+
+.green {
+    background-color: #5de95d;
+}
+
+.yellow {
+    background-color: #f9ed50;
+}
+
+.purple {
+    background-color: #819ff9;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: rgb(3, 54, 3);
+}
